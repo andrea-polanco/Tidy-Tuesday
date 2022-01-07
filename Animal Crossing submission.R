@@ -76,8 +76,8 @@ showtext_auto() #loads the font
 #graph frequency of species featured in Animal Crossing 
 ggplot(species_df, aes(x = reorder(species, n), y = n, fill = farmed)) +
   scale_fill_manual(name = "Farmed For Meat, Dairy, and/or Eggs", 
-                    values = c("Yes" = "#9dffb0",
-                               "No" = "#81f1f7")) +
+                    values = c("Yes" = "#81f1f7",
+                               "No" = "#9dffb0")) +
   geom_bar(position = position_dodge(), stat = "identity") +
   coord_flip(ylim=c(0,33)) +
   theme(legend.position = "bottom", 
