@@ -1,5 +1,5 @@
 #set working directory
-setwd("C:/Users/andop/OneDrive/Important Documents/TidyTuesday")
+setwd("....") #use getwd() to obtain directory 
 
 #load libraries 
 library(tidyverse) #data cleaning & ggplot 
